@@ -2,6 +2,7 @@ Airlift 0.88
 
 * HttpClient
 
+
 This release fixes a couple of performance issues and bugs in the HttpClient:
   - The client was inadvertently requesting GZIP responses. We've disabled this
     behavior since it affects CPU utilization.
